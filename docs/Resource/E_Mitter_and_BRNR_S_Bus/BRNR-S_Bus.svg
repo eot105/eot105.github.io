@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 507.99999 285.75001"
+   version="1.1"
+   id="svg20191"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="BRNR-S_Bus.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20193"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.25134134"
+     inkscape:cx="992.67393"
+     inkscape:cy="455.55577"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs20188" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect846"
+       width="76.595901"
+       height="57.177219"
+       x="23.137707"
+       y="74.35257" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect846-1"
+       width="76.595901"
+       height="57.177219"
+       x="99.733604"
+       y="74.352585" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect846-1-9"
+       width="76.595901"
+       height="57.177219"
+       x="176.32954"
+       y="74.352585" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect846-1-5"
+       width="76.595901"
+       height="57.177219"
+       x="252.92545"
+       y="74.352585" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect846-1-4"
+       width="76.595901"
+       height="57.177219"
+       x="329.52133"
+       y="74.35257" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect846-1-52"
+       width="76.595901"
+       height="57.177219"
+       x="406.11719"
+       y="74.352585" />
+    <text
+       xml:space="preserve"
+       style="font-size:15.3385px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;word-spacing:0px;stroke-width:0.383465"
+       x="32.430443"
+       y="108.58577"
+       id="text2199"><tspan
+         sodipodi:role="line"
+         id="tspan2197"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';stroke-width:0.383465"
+         x="32.430443"
+         y="108.58577">Header</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.3385px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;word-spacing:0px;stroke-width:0.383465"
+       x="114.44852"
+       y="108.26367"
+       id="text2199-2"><tspan
+         sodipodi:role="line"
+         id="tspan2197-0"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';stroke-width:0.383465"
+         x="114.44852"
+         y="108.26367">Data 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.3385px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;word-spacing:0px;stroke-width:0.383465"
+       x="209.41238"
+       y="103.89984"
+       id="text2199-2-5"><tspan
+         sodipodi:role="line"
+         id="tspan2197-0-5"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';stroke-width:0.383465"
+         x="209.41238"
+         y="103.89984">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.3385px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;word-spacing:0px;stroke-width:0.383465"
+       x="265.53128"
+       y="108.325"
+       id="text2199-2-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';stroke-width:0.383465"
+         x="265.53128"
+         y="108.325"
+         id="tspan9784">Data 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.3385px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;word-spacing:0px;stroke-width:0.383465"
+       x="341.91971"
+       y="108.26364"
+       id="text2199-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan2197-0-58"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';stroke-width:0.383465"
+         x="341.91971"
+         y="108.26364">Footer</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.3385px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;word-spacing:0px;stroke-width:0.383465"
+       x="419.84286"
+       y="108.30967"
+       id="text2199-2-0-7"><tspan
+         sodipodi:role="line"
+         id="tspan2197-0-58-4"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';stroke-width:0.383465"
+         x="419.84286"
+         y="108.30967">CRC-8</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24.848478,140.63894 v 57.17715 H 483.34509 v -57.17715"
+       id="path14723"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 24.848475,140.63894 8.1268364,157.36059"
+       id="path15484" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 24.848475,140.63894 16.182238,16.18224"
+       id="path15486" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 483.34509,140.63894 -16.72164,16.72165"
+       id="path15484-1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.34796;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 483.34509,140.63894 16.18221,16.18224"
+       id="path15486-3" />
+    <text
+       xml:space="preserve"
+       style="font-size:15.3385px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:Montserrat;word-spacing:0px;stroke-width:0.383465"
+       x="157.74582"
+       y="219.48996"
+       id="text16645"><tspan
+         sodipodi:role="line"
+         id="tspan16643"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:Montserrat;-inkscape-font-specification:'Montserrat Medium';stroke-width:0.383465"
+         x="157.74582"
+         y="219.48996">25 Bytes @ 115,200 baud</tspan></text>
+  </g>
+</svg>

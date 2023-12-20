@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://storage.cloudconvert.com/tasks/d21b2aae-d73f-4ef5-851e-67eeb791282e/LED_Poker_Drop_Off.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20230911%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20230911T015347Z&X-Amz-Expires=86400&X-Amz-Signature=acd68ce272e5a9e6d5b98de75706e187aab7c2466a7b62a080036fdcbc0362ad&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22LED_Poker_Drop_Off.gif%22&response-content-type=image%2Fgif&x-id=GetObject

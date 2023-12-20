@@ -1,0 +1,26 @@
+---
+
+---
+/* Override theme defaults */
+$base-font-family: 'Montserrat';
+$brand-color: rgb(0, 0, 0);
+
+/* load _sass/minima.scss */
+@import "minima";
+
+/* Put any custom CSS here */
+
+h1 {
+  padding-bottom: 2px;
+  color: rgb(0, 0, 0);
+}
+
+table, tr, td {
+  border: none;
+}
+
+.icon_img {
+  vertical-align: bottom;
+  padding-top: 10px;
+  padding-left: 5px;
+}
