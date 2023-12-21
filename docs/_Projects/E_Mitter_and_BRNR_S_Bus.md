@@ -69,8 +69,32 @@ The internals of the E.Mitter are shown in Fig 5. The hand soldered breadboard i
 <figcaption align="center"><b>Fig {% increment BRNR-fig_counter %}. Inside of the E.Mitter showing the LCD screen, batteries, joysticks, and the breadboard that contains the microcontroller.</b></figcaption>
 </figure>
 
+An MK66FX1M0VMD18 MCU from freescale was integrated into the main vehicle control PCB to handle the decoding of BRNR-S.Bus packets, this microcontroller ran custom firmware I developed in C++. The high performance overhead of this auxiliary microcontroller allowed for the possibility to parse more advanced data streams in the future.
+
 
 # Results
 ***
 <br>
 
+The BRNR-S.Bus protocol was successfully integrated into the main vehicle control PCB for the project using an MK66FX1M0VMD18 MCU and my C++ firmware. My prototype hand controller, though not designed for use in the final product, allowed testing and debugging while waiting for other groups to deliver the official hand controller. In addition to providing a reliable method of backup communacation and control the BRNR-S.Bus system is also designed to improve the latency of vehicle control. I designed a simple test procedure to determine how much latency exists between the movement of the joysticks and the actuation of the servo motor. By connecting one channel of an oscilloscope to the analog output of the joystick on the hand controller and another channel to the PWM output of the servo connector on the vehicle side, this latency could be measured.
+
+Shown in Fig 6 is the latency of a standard RC control system consisting of a commercial transmitter and receiver, the latency between moving the joystick and the PWM signal to the motor updating to reflect that is about 100ms, this latency will not be perceivable to a human operator.
+
+Fig 7 shows the latency measured in the same way when the data is sent via MAVLink packets over the custom MAVNet protocol running on meshed digital radios. This latency of 230ms will be noticeable to the operator as a lag between telling the vehicle to move and the vehicle actually moving.
+
+Fig 8 shows the BRNR-S.Bus protocol sent via the RS-232 channel of the same digital radio network, this protocol beats even the traditional RC network with only 82ms of latency.
+
+<figure>
+<center><img src="/Resource/E_Mitter_and_BRNR_S_Bus/futaba1.PNG" style="max-width:80%; min-width:300px; height:auto" class="center"></center>
+<figcaption align="center"><b>Fig {% increment BRNR-fig_counter %}. Latency of traditional RC control system.</b></figcaption>
+</figure>
+
+<figure>
+<center><img src="/Resource/E_Mitter_and_BRNR_S_Bus/Mavlink.PNG" style="max-width:80%; min-width:300px; height:auto" class="center"></center>
+<figcaption align="center"><b>Fig {% increment BRNR-fig_counter %}. Latency of MAVNet system.</b></figcaption>
+</figure>
+
+<figure>
+<center><img src="/Resource/E_Mitter_and_BRNR_S_Bus/BRNR-S.Bus_Timing.PNG" style="max-width:80%; min-width:300px; height:auto" class="center"></center>
+<figcaption align="center"><b>Fig {% increment BRNR-fig_counter %}. Latency of BRNR-S.Bus system.</b></figcaption>
+</figure>
