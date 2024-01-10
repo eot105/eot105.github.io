@@ -3,6 +3,8 @@ layout: page
 title: "Flashlamp pumped Nd:Glass laser"
 description: "Design and build of a homemade 300J solid state flashlamp pumped Nd:Glass laser."
 icon_img: "/Resource/FLP_NdGlass/Laser_Shot_Sparks_Ico.png"
+dates: "(2019-2021)"
+page_order: 4
 #permalink: /Nd-Glass/
 ---
 

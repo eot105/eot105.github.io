@@ -3,6 +3,8 @@ layout: page
 title: "Photonics IC Current Source"
 description: "Precision current controlled DAC with 50 output channels for development and testing of silicon photonic circuits."
 icon_img: "/Resource/MOSAICS/Mosaics_Ico.png"
+dates: "(2023 - present)"
+page_order: 1
 #permalink: /Nd-Glass/
 ---
 

@@ -3,6 +3,8 @@ layout: page
 title: "The LED Poker"
 description: "Integrated hardware/software solution to improve an LED binning machine"
 icon_img: "/Resource/LED_Poker/LED_Poker_Full_iso.png"
+dates: "(2022)"
+page_order: 2
 #permalink: /Nd-Glass/
 ---
 

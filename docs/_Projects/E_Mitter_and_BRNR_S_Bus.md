@@ -3,6 +3,8 @@ layout: page
 title: "The E.Mitter and BRNR-S.bus"
 description: "Low latency, high reliability control of unmanned vehicles over digital radio networks."
 icon_img: "/Resource/E_Mitter_and_BRNR_S_Bus/E_Mitter_Ico.png"
+dates: "(2019)"
+page_order: 5
 #permalink: /Nd-Glass/
 ---
 
@@ -76,7 +78,7 @@ An MK66FX1M0VMD18 MCU from freescale was integrated into the main vehicle contro
 ***
 <br>
 
-The BRNR-S.Bus protocol was successfully integrated into the main vehicle control PCB for the project using an MK66FX1M0VMD18 MCU and my C++ firmware. My prototype hand controller, though not designed for use in the final product, allowed testing and debugging while waiting for other groups to deliver the official hand controller. In addition to providing a reliable method of backup communacation and control the BRNR-S.Bus system is also designed to improve the latency of vehicle control. I designed a simple test procedure to determine how much latency exists between the movement of the joysticks and the actuation of the servo motor. By connecting one channel of an oscilloscope to the analog output of the joystick on the hand controller and another channel to the PWM output of the servo connector on the vehicle side, this latency could be measured.
+The BRNR-S.Bus protocol was successfully integrated into the main vehicle control PCB for the project using an MK66FX1M0VMD18 MCU and my C++ firmware. My prototype hand controller, though not designed for use in the final product, allowed testing and debugging while waiting for other groups to deliver the official hand controller. In addition to providing a reliable method of backup communication and control the BRNR-S.Bus system is also designed to improve the latency of vehicle control. I designed a simple test procedure to determine how much latency exists between the movement of the joysticks and the actuation of the servo motor. By connecting one channel of an oscilloscope to the analog output of the joystick on the hand controller and another channel to the PWM output of the servo connector on the vehicle side, this latency could be measured.
 
 Shown in Fig 6 is the latency of a standard RC control system consisting of a commercial transmitter and receiver, the latency between moving the joystick and the PWM signal to the motor updating to reflect that is about 100ms, this latency will not be perceivable to a human operator.
 
