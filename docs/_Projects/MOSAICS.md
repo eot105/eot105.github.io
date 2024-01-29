@@ -15,18 +15,23 @@ page_order: 1
 ***
 <br>
 
-MOSAICS is a high channel count current controlled DAC designed for driving laser sources and modulators used in cutting edge silicon photonic integrated circuits. It consists of a PCB built around the LTC2662 IC capable of driving 50 channels independently with up to 100uA resolution at 150 kHz update rate. MOSAICS communicates with a PC over full speed USB 2.0 for control and feeding back the actual current draw and voltage at each channel. Each channel can source up to 300mA and sink up to 80mA. The system also features a calibration port to account for any errors introduced by the signal conditioning of the current/voltage feedback. The system is currently in development, as of December 2023 the PCBs have been ordered and we are waiting on their arrival. 
+MOSAICS is a high channel count current controlled DAC designed to address growing scalability concerns surrounding the development of advanced silicon photonic integrated circuits. It consists of a PCB built around the LTC2662 IC and is capable of driving 50 independent current sources with up to 100uA resolution each at an update rate of 150 KHz. MOSAICS communicates with a PC over full speed USB 2.0 for control and feedback of the real-time current draw and voltage at each channel. Each channel can source up to 300mA and sink up to 80mA. The system also features a calibration port to account for any errors introduced by the signal conditioning of the current/voltage feedback. The system is currently in development, as of January 2023 one PCB has been assembled with all 50 channels tested and working. In addition, a breakout board for interfacing with GGB industries multi-contact picoprobes has been designed. This will allow easy interfacing between the MOSAICS PCB and the photonic integrated circuits. 
 
 <figure>
 <center><img src="/Resource/MOSAICS/MOSAICS_Full_Crop.png" style="max-width:50%; min-width:600px; height:auto" class="center"></center>
 <figcaption align="center"><b>Fig {% increment MOSAICS_fig_counter %}. 3D render of the MOSAICS PCB.</b></figcaption>
 </figure>
 
+<figure>
+<center><img src="/Resource/MOSAICS/Digital_Assem.png" style="max-width:50%; min-width:600px; height:auto" class="center"></center>
+<figcaption align="center"><b>Fig {% increment MOSAICS_fig_counter %}. The MOSAICS PCB with (most of) the components soldered.</b></figcaption>
+</figure>
+
 # The Problem:
 ***
 <br>
 
-Silicon photonics is, in general, any technology that integrates photonic processes (the study and science of light) with traditional CMOS processes (the technology that builds all modern transistors and computer chips). This emerging field promises many advancements in telecommunications, computation, and sensing. While many aspects are still in the research stage, silicon photonics is fast approaching commercial scalability especially in the telecommunications and computation sector, where ultra fast optical transceivers and CPU-Memory links are available for purchase now from companies like Intel and Ayar Labs. 
+Silicon photonics is, in general, any technology that integrates photonic processes (the study and science of light) with traditional CMOS processes (the technology that builds the majority of modern transistors and computer chips). This emerging field promises many advancements in telecommunications, computation, and sensing. While many aspects are still in the research stage, silicon photonics is fast approaching commercial scalability especially in the telecommunications and computation sector, where ultra fast optical transceivers and CPU-Memory links are available for purchase now from companies like Intel and Ayar Labs. 
 
 <figure>
 <center><img src="/Resource/MOSAICS/PIC_Wide.svg" style="max-width:50%; min-width:600px; height:auto" class="center"></center>
@@ -51,7 +56,7 @@ Because forward current has an exponential dependence on voltage, and because th
 
 Lasers are not the only devices used in silicon photonic systems that require this kind of constant current control. To make photonic integrated circuits useful, the light often needs to be modulated. Various materials have optical properties such as their index of refraction than can be changed as a function of temperature. This is accomplished sometimes using a Thermoelectric Generator (TEG) when space permits, but is often done using a simple strip of metal deposited using standard CMOS processes onto the integrated circuit that acts as a micro resistive heater. A constant current source is required to drive either a TEG or a resistive heater, and MOSAICS can be used for this purpose as well, it is accurate enough to allow for fine tuning of heat sensitive processes, and capable of delivering enough power to be used with large TEGs or resistive heaters.
 
-Power supplies that meet the above requirements are available commercially, and for controlling small numbers of devices these solutions work quite well. As photonic circuits get more advanced, however, the number of lasers or modulators that need independent control increases. A photonic neural network, for example, requires one laser for each of the input neurons and could require one modulator per neuron connection. A large network then can require 10's of devicesS, and more advanced ones still can require 100's. Commercial solutions that provide large numbers of independent current controlled output channels while meeting the aforementioned requirements are much harder to come by, some do exist, but their high cost and closed source software make them unappealing and impractical to groups preforming research at the university level. 
+Power supplies that meet the above requirements are available commercially, and for controlling small numbers of devices these solutions work quite well. As photonic circuits get more advanced, however, the number of lasers or modulators that need independent control increases. A photonic neural network, for example, requires one laser for each of the input neurons and could require one modulator per neuron connection. A large network then can require 10's of devices, and more advanced ones still can require 100's. Commercial solutions that provide large numbers of independent current controlled output channels while meeting the aforementioned requirements are much harder to come by, some do exist, but their high cost and closed source software make them unappealing and impractical to groups preforming research at the university level. 
 
 # The Solution:
 ***
@@ -65,7 +70,7 @@ MOSAICS is built around the LTC2662 current driver IC from Analog being driven w
 
 The MOSAICS PCB is designed as a 4 layer board with impedance controlled inner layers to increase the accuracy of the impedance matching simulations for the high speed USB and SPI signals. The PCB is designed allow banks of 10 channels to share a power supply so that the full current draw of the 50 channels can be split up. It also takes a 5V input to power the logic circuitry. The mounting holes are spaced to fit on a standard 1 inch grid, 1/4-20 tapped optical breadboard. The 50 pin ribbon cable that serves as the current outputs is used on several other projects in the RIT lab, and can easily be broken out as needed. The high current power source is designed to be supplied from a standard bench DC power supply, a ubiquitous photonics lab staple.
 
-The BOM cost of the MOSAICS PCB comes out to approximately $10 per current channel, significancy less expensive than other options currently on the market. The hardware and software will also be released under an open source license to allow other research teams to adapt the product to their needs.
+The BOM cost of the MOSAICS PCB comes out to approximately $4 per current channel, significancy less expensive than other options currently on the market. The hardware and software will also be released under an open source license to allow other research teams to adapt the product to their needs.
 
 # Current State:
 ***
@@ -87,3 +92,10 @@ The BOM cost of the MOSAICS PCB comes out to approximately $10 per current chann
 </figure>
 
 As of December 2023 and after several months of prototyping, the MOSAICS PCBs have been ordered! When they are assembled I will update this page with notes on how the theoretical designs stack up in reality, and on the progression of the code development. 
+
+Update January 2024: The boards are in! All 50 current channels have been tested and are working, the next step in development is writing the firmware that will accept commands over USB.
+
+<figure>
+<center><img src="/Resource/MOSAICS/One_Channel.png" style="max-width:50%; min-width:600px; height:auto" class="center"></center>
+<figcaption align="center"><b>Fig {% increment MOSAICS_fig_counter %}. Demo of a single current channel sourcing 100mA.</b></figcaption>
+</figure>

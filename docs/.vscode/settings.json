@@ -6,6 +6,7 @@
         "microcontroller",
         "MZIs",
         "packetized",
+        "picoprobes",
         "UART",
         "UCAMS"
     ]
